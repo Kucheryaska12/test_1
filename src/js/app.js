@@ -8,6 +8,3 @@ export function healthCount(obj)  {
     }
 }
 
-export function heroesSort(data) {
-    return data.sort((a, b) => b.health - a.health)
-}
